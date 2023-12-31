@@ -212,10 +212,10 @@ Y = ["##   ##","  # #  ","   #   ","   #   ","  ###  "]
 Z = ["#####","   # ","  #  "," #   ","#####"]
 
 
-INCONNU = ["????","????","????","????","????"]
+INCONNU = ["????","????","????","????","????"] # Pour tous les autres caracrères autres que les alphabets
 ## ==== Programme principale :
 print('\n')   
-l = input("Veuillez saisir la chaine de caracteres a convertir en ASCII_art : ")
+l = input("Veuillez saisir la chaine de caracteres a convertir en ASCII_art : ") # Saisis du mot ( ou phrase ) à convertir
 print("\n")
 
 i = l.lower() # Mettre toutes les lettres en miniscules
